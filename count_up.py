@@ -14,5 +14,11 @@ def count_up(start, stop):
 
     # YOUR CODE HERE
 
+    current = start
 
-count_up(5, 7)        
+    while (current <= stop):
+        print(current)
+        current = current + 1
+
+
+count_up(5, 7)
